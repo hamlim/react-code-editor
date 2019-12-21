@@ -2,7 +2,7 @@ import React, { useEffect, useReducer, useCallback, useRef } from 'react'
 import Editor from 'react-simple-code-editor'
 
 function getLineNumber(codeString, selectionStart) {
-  return codeString.substr(0, selectionStart).split('\n').length
+  return codeString.substring(0, selectionStart).split('\n').length
 }
 
 function getSelectionState(editorElement) {
