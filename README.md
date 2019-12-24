@@ -1,5 +1,7 @@
 # React Code Editor
 
+This repo has been migrated to my Projects monorepo here: https://github.com/hamlim/projects/tree/master/packages/react-code-editor.
+
 `@matthamlin/react-code-editor` is an opinionated package built on top of React Hooks and react-simple-code-editor.
 
 It implements a lightweight code editor component that supports the following enhancements:
